@@ -9,7 +9,7 @@ O projeto foi criado inteiramente como estudo prático para entender na prática
 🚀 Objetivo do Projeto
 
 Criar um sistema funcional que simula um fluxo completo de estoque:
--cadastrar produtos
+- cadastrar produtos
 -registrar compras
 -registrar vendas
 -retirar peças com motivo
