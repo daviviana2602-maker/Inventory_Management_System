@@ -5,6 +5,7 @@ O projeto foi criado inteiramente como estudo prático para entender na prática
 
 
 🚀 Objetivo do Projeto
+
 Criar um sistema funcional que simula um fluxo completo de estoque:
 -cadastrar produtos
 -registrar compras
@@ -18,6 +19,7 @@ Criar um sistema funcional que simula um fluxo completo de estoque:
 
 
 📦 Tecnologias Utilizadas
+
 -Python 3
 -SQLAlchemy ORM
 -PostgreSQL
@@ -65,6 +67,7 @@ O projeto utiliza 3 tabelas principais:
 
 
 🔥 Principais Funcionalidades
+
 ✔ Cadastro completo de produtos
 -Com validações rígidas de nome, tipo, tamanho, quantidade e preços.
 
@@ -96,7 +99,9 @@ O projeto utiliza 3 tabelas principais:
 ✔ Sessões com commit/rollback para segurança dos dados
 ✔ Entradas 100% tratadas e validadas
 
+
 🧩 Fluxo do Programa
+
 -Usuário escolhe a operação no menu.
 -O sistema valida todos os inputs.
 -Busca e manipula dados no banco via SQLAlchemy.
@@ -104,7 +109,9 @@ O projeto utiliza 3 tabelas principais:
 -Mostra mensagens claras e coloridas (Colorama).
 -Permite repetir a operação ou voltar ao menu.
 
+
 📂 Organização do Código
+
 *Aproximadamente 490 linhas
 *Estruturado em:
 
