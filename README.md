@@ -122,8 +122,7 @@ O projeto utiliza 3 tabelas principais:
 -------------------------------------------------------------------------------------------------
 ### 📂 Organização do Código
 
-*Aproximadamente 490 linhas
-*Estruturado em:
+Aproximadamente 490 linhas, estruturadas em:
 
 - menu
 - classes/tabelas
