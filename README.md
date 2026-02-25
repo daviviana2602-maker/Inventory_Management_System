@@ -4,6 +4,8 @@ Este é um sistema de gestão de estoque desenvolvido do zero, utilizando Python
 O projeto foi criado inteiramente como estudo prático para entender na prática CRUD, tabelas relacionais, validação de dados e manipulação real de estoque e vendas.
 
 
+
+
 🚀 Objetivo do Projeto
 
 Criar um sistema funcional que simula um fluxo completo de estoque:
@@ -18,6 +20,8 @@ Criar um sistema funcional que simula um fluxo completo de estoque:
 *Tudo isso usando conceitos essenciais de backend e banco de dados.
 
 
+
+
 📦 Tecnologias Utilizadas
 
 -Python 3
@@ -27,6 +31,8 @@ Criar um sistema funcional que simula um fluxo completo de estoque:
 -Colorama
 -Datetime
 -Módulo próprio (fanymodules)
+
+
 
 
 🧱 Estrutura do Banco de Dados
@@ -66,6 +72,8 @@ O projeto utiliza 3 tabelas principais:
 -data
 
 
+
+
 🔥 Principais Funcionalidades
 
 ✔ Cadastro completo de produtos
@@ -94,10 +102,12 @@ O projeto utiliza 3 tabelas principais:
 -prejuízo por peça
 -atualizações consistentes no banco
 
-✔ Separação de responsabilidade entre tabelas
-✔ Uso de ORM profissional (SQLAlchemy)
-✔ Sessões com commit/rollback para segurança dos dados
-✔ Entradas 100% tratadas e validadas
+-✔ Separação de responsabilidade entre tabelas
+-✔ Uso de ORM profissional (SQLAlchemy)
+-✔ Sessões com commit/rollback para segurança dos dados
+-✔ Entradas 100% tratadas e validadas
+
+
 
 
 🧩 Fluxo do Programa
@@ -108,6 +118,8 @@ O projeto utiliza 3 tabelas principais:
 -Executa o CRUD correspondente.
 -Mostra mensagens claras e coloridas (Colorama).
 -Permite repetir a operação ou voltar ao menu.
+
+
 
 
 📂 Organização do Código
