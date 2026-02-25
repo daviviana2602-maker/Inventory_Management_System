@@ -6,7 +6,7 @@ O projeto foi criado inteiramente como estudo prático para entender na prática
 
 
 -------------------------------------------------------------------------------------------------
-🚀 Objetivo do Projeto
+🚀 #Objetivo do Projeto
 
 Criar um sistema funcional que simula um fluxo completo de estoque:
 - cadastrar produtos
@@ -22,7 +22,7 @@ Criar um sistema funcional que simula um fluxo completo de estoque:
 
 
 -------------------------------------------------------------------------------------------------
-📦 Tecnologias Utilizadas
+📦 #Tecnologias Utilizadas
 
 - Python 3
 - SQLAlchemy ORM
@@ -35,10 +35,10 @@ Criar um sistema funcional que simula um fluxo completo de estoque:
 
 
 -------------------------------------------------------------------------------------------------
-🧱 Estrutura do Banco de Dados
+🧱 #Estrutura do Banco de Dados
 O projeto utiliza 3 tabelas principais:
 
-1. estoque
+1. #estoque
 - Armazena tudo sobre produtos disponíveis:
 - nome
 - tipo
@@ -50,7 +50,7 @@ O projeto utiliza 3 tabelas principais:
 - lucro em porcentagem
 - data da compra
 
-2. vendas
+2. #vendas
 - Registra toda venda feita:
 - nome do produto
 - tipo
@@ -61,7 +61,7 @@ O projeto utiliza 3 tabelas principais:
 - quantidade vendida
 - data da venda
 
-3. retirados
+3. #retirados
 - Guarda retiradas e perdas do estoque:
 - produto
 - tipo
@@ -74,7 +74,7 @@ O projeto utiliza 3 tabelas principais:
 
 
 -------------------------------------------------------------------------------------------------
-🔥 Principais Funcionalidades
+🔥 #Principais Funcionalidades
 
 ✔ Cadastro completo de produtos
 - Com validações rígidas de nome, tipo, tamanho, quantidade e preços.
@@ -101,6 +101,8 @@ O projeto utiliza 3 tabelas principais:
 - lucro em porcentagem
 - prejuízo por peça
 - atualizações consistentes no banco
+  
+-------------------------------------------------------------------------------------------------
 
 - ✔ Separação de responsabilidade entre tabelas
 - ✔ Uso de ORM profissional (SQLAlchemy)
@@ -110,7 +112,7 @@ O projeto utiliza 3 tabelas principais:
 
 
 -------------------------------------------------------------------------------------------------
-🧩 Fluxo do Programa
+🧩 #Fluxo do Programa
 
 - Usuário escolhe a operação no menu.
 - O sistema valida todos os inputs.
@@ -122,7 +124,7 @@ O projeto utiliza 3 tabelas principais:
 
 
 -------------------------------------------------------------------------------------------------
-📂 Organização do Código
+📂 #Organização do Código
 
 *Aproximadamente 490 linhas
 *Estruturado em:
