@@ -17,7 +17,7 @@ Criar um sistema funcional que simula um fluxo completo de estoque:
 - calcular lucros/prejuízos por peça
 - movimentar dados entre tabelas
 - garantir que cada operação seja validada antes de entrar no banco
-* Tudo isso usando conceitos essenciais de backend e banco de dados.
+Tudo isso usando conceitos essenciais de backend e banco de dados.
 
 
 
