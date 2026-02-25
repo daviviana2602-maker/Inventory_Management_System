@@ -38,7 +38,7 @@ Criar um sistema funcional que simula um fluxo completo de estoque:
 ### 🧱 Estrutura do Banco de Dados
 O projeto utiliza 3 tabelas principais:
 
-1. #estoque
+### 1. estoque
 - Armazena tudo sobre produtos disponíveis:
 - nome
 - tipo
@@ -50,7 +50,7 @@ O projeto utiliza 3 tabelas principais:
 - lucro em porcentagem
 - data da compra
 
-2. #vendas
+### 2. vendas
 - Registra toda venda feita:
 - nome do produto
 - tipo
@@ -61,7 +61,7 @@ O projeto utiliza 3 tabelas principais:
 - quantidade vendida
 - data da venda
 
-3. #retirados
+### 3. retirados
 - Guarda retiradas e perdas do estoque:
 - produto
 - tipo
@@ -108,8 +108,6 @@ O projeto utiliza 3 tabelas principais:
 - ✔ Uso de ORM profissional (SQLAlchemy)
 - ✔ Sessões com commit/rollback para segurança dos dados
 - ✔ Entradas 100% tratadas e validadas
-
-
 
 -------------------------------------------------------------------------------------------------
 ### 🧩 Fluxo do Programa
