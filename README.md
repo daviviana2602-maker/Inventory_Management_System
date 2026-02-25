@@ -1,8 +1,7 @@
 # Inventory_Management_System
 
 Este é um sistema de gestão de estoque desenvolvido do zero, utilizando Python, SQLAlchemy (ORM) e PostgreSQL.
-O projeto foi criado inteiramente como estudo prático para entender na prática CRUD, tabelas relacionais, validação de dados e manipulação real de estoque e vendas.
-
+- O projeto foi criado inteiramente como estudo prático para entender na prática CRUD, tabelas relacionais, validação de dados e manipulação real de estoque e vendas.
 
 
 -------------------------------------------------------------------------------------------------
@@ -17,8 +16,6 @@ Criar um sistema funcional que simula um fluxo completo de estoque:
 - calcular lucros/prejuízos por peça
 - movimentar dados entre tabelas
 - garantir que cada operação seja validada antes de entrar no banco
- Tudo isso usando conceitos essenciais de backend e banco de dados.
-
 
 
 -------------------------------------------------------------------------------------------------
