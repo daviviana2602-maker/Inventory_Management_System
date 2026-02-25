@@ -22,7 +22,7 @@ Criar um sistema funcional que simula um fluxo completo de estoque:
 
 
 -------------------------------------------------------------------------------------------------
-📦 #Tecnologias Utilizadas
+### 📦 Tecnologias Utilizadas
 
 - Python 3
 - SQLAlchemy ORM
@@ -35,7 +35,7 @@ Criar um sistema funcional que simula um fluxo completo de estoque:
 
 
 -------------------------------------------------------------------------------------------------
-🧱 #Estrutura do Banco de Dados
+### 🧱 Estrutura do Banco de Dados
 O projeto utiliza 3 tabelas principais:
 
 1. #estoque
@@ -74,7 +74,7 @@ O projeto utiliza 3 tabelas principais:
 
 
 -------------------------------------------------------------------------------------------------
-🔥 #Principais Funcionalidades
+### 🔥 Principais Funcionalidades
 
 ✔ Cadastro completo de produtos
 - Com validações rígidas de nome, tipo, tamanho, quantidade e preços.
@@ -112,7 +112,7 @@ O projeto utiliza 3 tabelas principais:
 
 
 -------------------------------------------------------------------------------------------------
-🧩 #Fluxo do Programa
+### 🧩 Fluxo do Programa
 
 - Usuário escolhe a operação no menu.
 - O sistema valida todos os inputs.
@@ -124,7 +124,7 @@ O projeto utiliza 3 tabelas principais:
 
 
 -------------------------------------------------------------------------------------------------
-📂 #Organização do Código
+### 📂 Organização do Código
 
 *Aproximadamente 490 linhas
 *Estruturado em:
