@@ -10,27 +10,27 @@ O projeto foi criado inteiramente como estudo prático para entender na prática
 
 Criar um sistema funcional que simula um fluxo completo de estoque:
 - cadastrar produtos
--registrar compras
--registrar vendas
--retirar peças com motivo
--atualizar quantidades em tempo real
--calcular lucros/prejuízos por peça
--movimentar dados entre tabelas
--garantir que cada operação seja validada antes de entrar no banco
-*Tudo isso usando conceitos essenciais de backend e banco de dados.
+- registrar compras
+- registrar vendas
+- retirar peças com motivo
+- atualizar quantidades em tempo real
+- calcular lucros/prejuízos por peça
+- movimentar dados entre tabelas
+- garantir que cada operação seja validada antes de entrar no banco
+* Tudo isso usando conceitos essenciais de backend e banco de dados.
 
 
 
 
 📦 Tecnologias Utilizadas
 
--Python 3
--SQLAlchemy ORM
--PostgreSQL
--psycopg2
--Colorama
--Datetime
--Módulo próprio (fanymodules)
+- Python 3
+- SQLAlchemy ORM
+- PostgreSQL
+- psycopg2
+- Colorama
+- Datetime
+- Módulo próprio (fanymodules)
 
 
 
@@ -39,37 +39,37 @@ Criar um sistema funcional que simula um fluxo completo de estoque:
 O projeto utiliza 3 tabelas principais:
 
 1. estoque
--Armazena tudo sobre produtos disponíveis:
--nome
--tipo
--tamanho
--quantidade
--preço de compra
--preço de venda
--lucro por peça
--lucro em porcentagem
--data da compra
+- Armazena tudo sobre produtos disponíveis:
+- nome
+- tipo
+- tamanho
+- quantidade
+- preço de compra
+- preço de venda
+- lucro por peça
+- lucro em porcentagem
+- data da compra
 
 3. vendas
--Registra toda venda feita:
--nome do produto
--tipo
--tamanho
--preço vendido
--lucro/prejuízo real por peça
--porcentagem de lucro/prejuízo
--quantidade vendida
--data da venda
+- Registra toda venda feita:
+- nome do produto
+- tipo
+- tamanho
+- preço vendido
+- lucro/prejuízo real por peça
+- porcentagem de lucro/prejuízo
+- quantidade vendida
+- data da venda
 
 4. retirados
--Guarda retiradas e perdas do estoque:
--produto
--tipo
--tamanho
--quantidade retirada
--preço original
--motivo da retirada
--data
+- Guarda retiradas e perdas do estoque:
+- produto
+- tipo
+- tamanho
+- quantidade retirada
+- preço original
+- motivo da retirada
+- data
 
 
 
@@ -77,47 +77,47 @@ O projeto utiliza 3 tabelas principais:
 🔥 Principais Funcionalidades
 
 ✔ Cadastro completo de produtos
--Com validações rígidas de nome, tipo, tamanho, quantidade e preços.
+- Com validações rígidas de nome, tipo, tamanho, quantidade e preços.
 
 ✔ Registro de venda 100% validado
--verifica se o item existe
--verifica se há estoque suficiente
--calcula lucro ou prejuízo real
--atualiza o estoque automaticamente
--remove item da tabela se quantidade chegar a zero
--salva venda na tabela correta
+- verifica se o item existe
+- verifica se há estoque suficiente
+- calcula lucro ou prejuízo real
+- atualiza o estoque automaticamente
+- remove item da tabela se quantidade chegar a zero
+- salva venda na tabela correta
 
 ✔ Retirada de peças com motivo
--valida tudo
--mantém histórico completo de perdas
--atualiza estoque
--exclui o item se zerar
+- valida tudo
+- mantém histórico completo de perdas
+- atualiza estoque
+- exclui o item se zerar
 
 ✔ Consulta rápida ao estoque
--Verificação direta e validada.
+- Verificação direta e validada.
 
 ✔ Cálculo automático:
--lucro em reais
--lucro em porcentagem
--prejuízo por peça
--atualizações consistentes no banco
+- lucro em reais
+- lucro em porcentagem
+- prejuízo por peça
+- atualizações consistentes no banco
 
--✔ Separação de responsabilidade entre tabelas
--✔ Uso de ORM profissional (SQLAlchemy)
--✔ Sessões com commit/rollback para segurança dos dados
--✔ Entradas 100% tratadas e validadas
+- ✔ Separação de responsabilidade entre tabelas
+- ✔ Uso de ORM profissional (SQLAlchemy)
+- ✔ Sessões com commit/rollback para segurança dos dados
+- ✔ Entradas 100% tratadas e validadas
 
 
 
 
 🧩 Fluxo do Programa
 
--Usuário escolhe a operação no menu.
--O sistema valida todos os inputs.
--Busca e manipula dados no banco via SQLAlchemy.
--Executa o CRUD correspondente.
--Mostra mensagens claras e coloridas (Colorama).
--Permite repetir a operação ou voltar ao menu.
+- Usuário escolhe a operação no menu.
+- O sistema valida todos os inputs.
+- Busca e manipula dados no banco via SQLAlchemy.
+- Executa o CRUD correspondente.
+- Mostra mensagens claras e coloridas (Colorama).
+- Permite repetir a operação ou voltar ao menu.
 
 
 
@@ -127,9 +127,9 @@ O projeto utiliza 3 tabelas principais:
 *Aproximadamente 490 linhas
 *Estruturado em:
 
--menu
--classes/tabelas
--funções separadas por operação
--loop principal
--módulo externo (fanymodules) para funções de repetição
--responsabilidade de tabelas
+- menu
+- classes/tabelas
+- funções separadas por operação
+- loop principal
+- módulo externo (fanymodules) para funções de repetição
+- responsabilidade de tabelas
