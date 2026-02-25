@@ -101,13 +101,11 @@ O projeto utiliza 3 tabelas principais:
 - lucro em porcentagem
 - prejuízo por peça
 - atualizações consistentes no banco
-  
--------------------------------------------------------------------------------------------------
 
-- ✔ Separação de responsabilidade entre tabelas
-- ✔ Uso de ORM profissional (SQLAlchemy)
-- ✔ Sessões com commit/rollback para segurança dos dados
-- ✔ Entradas 100% tratadas e validadas
+✔ Separação de responsabilidade entre tabelas
+✔ Uso de ORM profissional (SQLAlchemy)
+✔ Sessões com commit/rollback para segurança dos dados
+✔ Entradas 100% tratadas e validadas
 
 -------------------------------------------------------------------------------------------------
 ### 🧩 Fluxo do Programa
