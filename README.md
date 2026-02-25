@@ -5,7 +5,7 @@ O projeto foi criado inteiramente como estudo prático para entender na prática
 
 
 
-
+-------------------------------------------------------------------------------------------------
 🚀 Objetivo do Projeto
 
 Criar um sistema funcional que simula um fluxo completo de estoque:
@@ -21,7 +21,7 @@ Criar um sistema funcional que simula um fluxo completo de estoque:
 
 
 
-
+-------------------------------------------------------------------------------------------------
 📦 Tecnologias Utilizadas
 
 - Python 3
@@ -34,7 +34,7 @@ Criar um sistema funcional que simula um fluxo completo de estoque:
 
 
 
-
+-------------------------------------------------------------------------------------------------
 🧱 Estrutura do Banco de Dados
 O projeto utiliza 3 tabelas principais:
 
@@ -50,7 +50,7 @@ O projeto utiliza 3 tabelas principais:
 - lucro em porcentagem
 - data da compra
 
-3. vendas
+2. vendas
 - Registra toda venda feita:
 - nome do produto
 - tipo
@@ -61,7 +61,7 @@ O projeto utiliza 3 tabelas principais:
 - quantidade vendida
 - data da venda
 
-4. retirados
+3. retirados
 - Guarda retiradas e perdas do estoque:
 - produto
 - tipo
@@ -73,7 +73,7 @@ O projeto utiliza 3 tabelas principais:
 
 
 
-
+-------------------------------------------------------------------------------------------------
 🔥 Principais Funcionalidades
 
 ✔ Cadastro completo de produtos
@@ -109,7 +109,7 @@ O projeto utiliza 3 tabelas principais:
 
 
 
-
+-------------------------------------------------------------------------------------------------
 🧩 Fluxo do Programa
 
 - Usuário escolhe a operação no menu.
@@ -121,7 +121,7 @@ O projeto utiliza 3 tabelas principais:
 
 
 
-
+-------------------------------------------------------------------------------------------------
 📂 Organização do Código
 
 *Aproximadamente 490 linhas
