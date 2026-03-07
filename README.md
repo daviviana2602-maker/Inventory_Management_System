@@ -1,9 +1,3 @@
-# Inventory_Management_System
-
-Este é um sistema de gestão de estoque desenvolvido do zero, utilizando Python, SQLAlchemy (ORM) e PostgreSQL.
-- O projeto foi criado inteiramente como estudo prático para entender na prática CRUD, tabelas relacionais, validação de dados e manipulação real de estoque e vendas.
-
-
 # 📦 Inventory_Management_System
 
 Sistema de **gestão de estoque via terminal** desenvolvido em **Python**, utilizando **SQLAlchemy (ORM)** e **PostgreSQL**.
