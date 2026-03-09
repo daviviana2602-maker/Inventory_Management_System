@@ -13,8 +13,7 @@ from colorama import init, Back, Style    # colors
 init()
 
 
-DATABASE_URL = "postgresql+psycopg2://postgres:cttdavi2602@localhost:5432/postgres"
-# postgresql+psycopg2://usuario:senha@localhost:5432/your_database
+DATABASE_URL = # postgresql+psycopg2://usuario:senha@localhost:5432/your_database
 
 
 engine = create_engine(DATABASE_URL)   # connect with the database
@@ -704,4 +703,5 @@ while True:
 
     if rep == 'não':
         print(f'\n{Back.WHITE}======= PROGRAMA ENCERRADO ======={Style.RESET_ALL}')
+
         break
