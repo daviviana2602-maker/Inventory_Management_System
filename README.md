@@ -184,7 +184,7 @@ Os dados são exibidos em formato de tabela utilizando **Tabulate**.
 
 # 📂 Organização do Código
 
-O projeto possui aproximadamente **500 linhas de código**, organizadas em:
+O projeto possui aproximadamente **700 linhas de código**, organizadas em:
 
 - menu principal
 - definição das tabelas (ORM)
